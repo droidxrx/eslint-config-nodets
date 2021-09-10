@@ -1,0 +1,30 @@
+{
+	"name": "eslint-config-nodets",
+	"version": "1.0.0",
+	"description": "Configuration ESLINT for TypeScript.",
+	"main": "index.js",
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/droidxrx/eslint-config-nodets.git"
+	},
+	"keywords": [
+		"eslint",
+		"eslint-config",
+		"eslint-typescript",
+		"config-eslint-typescript"
+	],
+	"author": "DroidXrX <droidxrx@gmail.com> (https://github.com/droidxrx)",
+	"license": "MIT",
+	"bugs": {
+		"url": "https://github.com/droidxrx/eslint-config-nodets/issues"
+	},
+	"homepage": "https://github.com/droidxrx/eslint-config-nodets#readme",
+	"dependencies": {
+		"@typescript-eslint/eslint-plugin": "^4.30.0",
+		"@typescript-eslint/parser": "^4.31.0",
+		"eslint-config-standard-with-typescript": "^21.0.1",
+		"eslint-plugin-import": "^2.24.2",
+		"eslint-plugin-node": "^11.1.0",
+		"eslint-plugin-promise": "^5.1.0"
+	}
+}
